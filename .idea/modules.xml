@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/org.dieschnittstelle.jee.esa.crudsample/crudsample-all.iml" filepath="$PROJECT_DIR$/org.dieschnittstelle.jee.esa.crudsample/crudsample-all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.dieschnittstelle.jee.esa.crudsample.ear/crudsample-ear.iml" filepath="$PROJECT_DIR$/org.dieschnittstelle.jee.esa.crudsample.ear/crudsample-ear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.dieschnittstelle.jee.esa.crudsample.ejbmodule/crudsample-ejbmodule.iml" filepath="$PROJECT_DIR$/org.dieschnittstelle.jee.esa.crudsample.ejbmodule/crudsample-ejbmodule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.dieschnittstelle.jee.esa.crudsample.webapp/crudsample-webapp.iml" filepath="$PROJECT_DIR$/org.dieschnittstelle.jee.esa.crudsample.webapp/crudsample-webapp.iml" />
+    </modules>
+  </component>
+</project>

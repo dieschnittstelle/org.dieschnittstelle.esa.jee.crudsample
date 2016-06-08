@@ -1,0 +1,21 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
+	version="1.0">
+	<persistence-unit name="skeleton_PU">
+		<jta-data-source>java:/skeleton_DS</jta-data-source>
+		<!-- Explizite Angabe von Klassen, die zur Persistence Unit gehoeren sollen, 
+			bzw. Angabe von jars, deren Klassen uebernommen werden sollen -->
+		<class>org.dieschnittstelle.jee.esa.entities.crm.AbstractTouchpoint</class>
+		<class>org.dieschnittstelle.jee.esa.entities.crm.StationaryTouchpoint</class>
+		<class>org.dieschnittstelle.jee.esa.entities.crm.MobileTouchpoint</class>
+		<class>org.dieschnittstelle.jee.esa.entities.crm.Address</class>
+		<class>org.dieschnittstelle.jee.esa.entities.crm.Location</class>
+		<class>org.dieschnittstelle.jee.esa.entities.crm.Customer</class>
+		<class>org.dieschnittstelle.jee.esa.entities.crm.CustomerTransaction</class>
+		<class>org.dieschnittstelle.jee.esa.entities.crm.CrmProductBundle</class>
+		<properties>
+			<property name="hibernate.hbm2ddl.auto" value="create-drop" />
+		</properties>
+	</persistence-unit>
+</persistence>

@@ -1,0 +1,21 @@
+<datasources>
+	<datasource jndi-name="java:/skeleton_DS" pool-name="skeleton_Pool"
+				enabled="true" use-java-context="true">
+		<connection-url>jdbc:h2:tcp://localhost/~/crm_erp_db</connection-url>
+		<driver>h2</driver>
+		<security>
+			<user-name>sa</user-name>
+			<password></password>
+		</security>
+	</datasource>
+	<!-- h2 embedded Datenbank -->
+	<!--<datasource jndi-name="java:/skeleton_DS" pool-name="skeleton_Pool"-->
+		<!--enabled="true" use-java-context="true">-->
+		<!--<connection-url>jdbc:h2:mem:skeleton_db;DB_CLOSE_DELAY=-1 </connection-url>-->
+		<!--<driver>h2</driver>-->
+		<!--<security>-->
+			<!--<user-name>sa</user-name>-->
+			<!--<password>sa</password>-->
+		<!--</security>-->
+	<!--</datasource>  -->
+</datasources>

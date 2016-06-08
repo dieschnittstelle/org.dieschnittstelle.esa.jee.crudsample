@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="crudsample-ear:ear">
+    <output-path>$PROJECT_DIR$/org.dieschnittstelle.jee.esa.crudsample.ear/target</output-path>
+    <root id="archive" name="org.dieschnittstelle.jee.esa.crudsample.ear">
+      <element id="artifact" artifact-name="crudsample-ear:ear exploded" />
+    </root>
+  </artifact>
+</component>

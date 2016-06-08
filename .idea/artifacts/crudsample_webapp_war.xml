@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="crudsample-webapp:war">
+    <output-path>$PROJECT_DIR$/org.dieschnittstelle.jee.esa.crudsample.webapp/target</output-path>
+    <root id="archive" name="org.dieschnittstelle.jee.esa.crudsample.jsf.war">
+      <element id="artifact" artifact-name="crudsample-webapp:war exploded" />
+    </root>
+  </artifact>
+</component>
