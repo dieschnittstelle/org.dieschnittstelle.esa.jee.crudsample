@@ -15,6 +15,9 @@
                 <artifactId>maven-ear-plugin</artifactId>
                 <configuration>
                     <version>1.4</version>
+                    <!-- THIS DECLARATION IS ABSOLUTELY CRUCIAL AS OTHERWISE TRANSITIVE DEPENDENCIES MUST BE IMPORTED MANUALLY!!! -->
+                    <!-- see: https://antoniogoncalves.org/2009/10/23/because-i-always-forget-how-to-use-maven-ear-plugin/ vs. http://stackoverflow.com/questions/8156115/maven-ejb-packaging-with-dependent-libraries -->
+                    <defaultLibBundleDir>lib</defaultLibBundleDir>
                     <modules>
                         <webModule>
                             <groupId>org.dieschnittstelle.jee.esa.crudsample</groupId>
@@ -29,26 +32,6 @@
                             <bundleFileName>org.dieschnittstelle.jee.esa.crudsample.ejbmodule.jar</bundleFileName>
                             <unpack>false</unpack>
                         </ejbModule>
-                        <jarModule>
-                            <groupId>org.dieschnittstelle.jee.esa.shared</groupId>
-                            <artifactId>lib-entities-crm</artifactId>
-                            <bundleDir>lib</bundleDir>
-                        </jarModule>
-                        <jarModule>
-                            <groupId>org.dieschnittstelle.jee.esa.shared</groupId>
-                            <artifactId>lib-entities-erp</artifactId>
-                            <bundleDir>lib</bundleDir>
-                        </jarModule>
-                        <jarModule>
-                            <groupId>org.dieschnittstelle.jee.esa.shared</groupId>
-                            <artifactId>lib-esa-utils</artifactId>
-                            <bundleDir>lib</bundleDir>
-                        </jarModule>
-                        <jarModule>
-                            <groupId>log4j</groupId>
-                            <artifactId>log4j</artifactId>
-                            <bundleDir>lib</bundleDir>
-                        </jarModule>
                     </modules>
                     <earName>org.dieschnittstelle.jee.esa.crudsample</earName>
                     <generateApplicationXml>true</generateApplicationXml>
@@ -80,6 +63,11 @@
         <dependency>
             <groupId>org.dieschnittstelle.jee.esa.shared</groupId>
             <artifactId>lib-entities-crm</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.dieschnittstelle.esa.vertx</groupId>
+            <artifactId>esa-vertx-crud-api</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>

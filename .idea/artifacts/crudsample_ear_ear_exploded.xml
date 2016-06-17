@@ -9,29 +9,29 @@
       <element id="archive" name="org.dieschnittstelle.jee.esa.crudsample.ejbmodule.jar">
         <element id="module-output" name="crudsample-ejbmodule" />
       </element>
-      <element id="library" level="project" name="Maven: org.mongodb:mongodb-driver:3.2.0" />
-      <element id="library" level="project" name="Maven: org.mongodb:bson:3.2.0" />
-      <element id="library" level="project" name="Maven: org.mongodb:mongodb-driver-core:3.2.0" />
-      <element id="library" level="project" name="Maven: de.undercouch:bson4jackson:2.7.0" />
-      <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.7.0" />
-      <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.7.0" />
-      <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.7.0" />
-      <element id="library" level="project" name="Maven: org.dieschnittstelle.esa.vertx:esa-vertx-crud-api:1.0-SNAPSHOT" />
-      <element id="library" level="project" name="Maven: io.vertx:vertx-core:3.2.0" />
-      <element id="library" level="project" name="Maven: io.netty:netty-common:4.0.33.Final" />
-      <element id="library" level="project" name="Maven: io.netty:netty-buffer:4.0.33.Final" />
-      <element id="library" level="project" name="Maven: io.netty:netty-transport:4.0.33.Final" />
-      <element id="library" level="project" name="Maven: io.netty:netty-handler:4.0.33.Final" />
-      <element id="library" level="project" name="Maven: io.netty:netty-codec:4.0.33.Final" />
-      <element id="library" level="project" name="Maven: io.netty:netty-codec-http:4.0.33.Final" />
-      <element id="directory" name="org.dieschnittstelle.jee.esa.crudsample.webapp.war">
-        <element id="artifact" artifact-name="crudsample-webapp:war exploded" />
-      </element>
       <element id="directory" name="lib">
+        <element id="library" level="project" name="Maven: org.mongodb:mongodb-driver:3.2.0" />
+        <element id="library" level="project" name="Maven: org.mongodb:bson:3.2.0" />
+        <element id="library" level="project" name="Maven: org.mongodb:mongodb-driver-core:3.2.0" />
+        <element id="library" level="project" name="Maven: de.undercouch:bson4jackson:2.7.0" />
+        <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.7.0" />
+        <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.7.0" />
+        <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.7.0" />
         <element id="library" level="project" name="Maven: org.dieschnittstelle.jee.esa.shared:lib-entities-crm:1.0-SNAPSHOT" />
         <element id="library" level="project" name="Maven: org.dieschnittstelle.jee.esa.shared:lib-entities-erp:1.0-SNAPSHOT" />
         <element id="library" level="project" name="Maven: org.dieschnittstelle.jee.esa.shared:lib-esa-utils:1.0-SNAPSHOT" />
+        <element id="library" level="project" name="Maven: org.dieschnittstelle.esa.vertx:esa-vertx-crud-api:1.0-SNAPSHOT" />
+        <element id="library" level="project" name="Maven: io.vertx:vertx-core:3.2.0" />
+        <element id="library" level="project" name="Maven: io.netty:netty-common:4.0.33.Final" />
+        <element id="library" level="project" name="Maven: io.netty:netty-buffer:4.0.33.Final" />
+        <element id="library" level="project" name="Maven: io.netty:netty-transport:4.0.33.Final" />
+        <element id="library" level="project" name="Maven: io.netty:netty-handler:4.0.33.Final" />
+        <element id="library" level="project" name="Maven: io.netty:netty-codec:4.0.33.Final" />
+        <element id="library" level="project" name="Maven: io.netty:netty-codec-http:4.0.33.Final" />
         <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+      </element>
+      <element id="directory" name="org.dieschnittstelle.jee.esa.crudsample.webapp.war">
+        <element id="artifact" artifact-name="crudsample-webapp:war exploded" />
       </element>
     </root>
   </artifact>
